@@ -1,0 +1,33 @@
+.face{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  border-radius: 100%;
+  background-color: black;
+  box-shadow:
+  150px -100px 0 -40px currentColor,
+  -150px -100px 0 -40px currentColor;
+}
+.eyes{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border-radius: 100%;
+  color: white;
+  box-shadow:
+  190px 80px 0 0px currentColor,
+  40px 80px 0 0px currentColor;
+}
+.mouth{
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 150px;
+  left: 75px;
+  border-radius: 100%;
+  color: white;
+  box-shadow:
+  0px 10px 0 0px currentColor;
+}
